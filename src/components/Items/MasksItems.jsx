@@ -55,7 +55,9 @@ const MasksItems = () => (
     <div>
     {maskcard.map(item => 
     (
-       <CardMasks name = {item.name} country = {item.country} photo = {item.photo} description = {item.description} />
+       <CardMasks {...item}
+    // name = {item.name} country = {item.country} photo = {item.photo} description = {item.description}
+     />
     )
         // <Travels {... travel} />
         )}

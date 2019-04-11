@@ -1,0 +1,9 @@
+/* .footerHeader {
+    background-color: rgb(147, 82, 129);
+}
+
+@media (min-width:20px) and (max-width: 413px) {
+    .footerHeader {
+        display: none;
+    }
+} */

@@ -1,0 +1,11 @@
+.footerFooter {
+    background-color: rgb(125, 125, 167);
+}
+
+
+@media (max-width: 414px) {
+    .footerFooter {
+        display: none;
+    }
+}
+

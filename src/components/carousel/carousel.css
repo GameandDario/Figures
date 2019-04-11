@@ -1,0 +1,25 @@
+.imgCaroussel {
+    width: 700px;
+    border-radius: 10px;
+    border: solid 5px brown; 
+    padding: 4px;
+    margin-top: 30px;
+}
+
+@media (max-width: 767px) {
+    .imgCaroussel {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .imgCaroussel {
+        width: 80%;
+    
+
+    }
+}
+@media (min-width: 992px) {
+    .imgCaroussel {
+        width: 80%;
+    }
+}
